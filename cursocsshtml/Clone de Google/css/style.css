@@ -11,15 +11,21 @@ html {
 
 header nav {
     display: flex;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.6rem;
     margin-top: 10px;
     justify-content: end;
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 header nav .navbar__right {
     width: 250px;
     height: auto;
@@ -38,20 +44,96 @@ nav .navbar__right .menu {
     margin-left: 10px;
     width: 16px;
     height: 16px;
-    background-image: url("../imagenes/menu.png");
+    background-image: url("../imagenes/grid-3x3-gap-fill.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-nav .navbar__right img{
+
+nav .navbar__right img {
     border-radius: 50%;
     margin-left: 10px;
 }
+
 /* main */
-main{
+main {
     margin-top: 15%;
     text-align: center;
 }
-main .main-input-container{
-    
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 272px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+main .main-input .search-icon {
+    background-image: url("../imagenes/search.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url("../imagenes/googlemic_clr_24px.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+}
+
+main .main-button {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-button div {
+    display: inline-block;
+}
+
+main .main-button button {
+    height: 36px;
+    background-color: lef8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+main .main-button button:hover {
+    box-shadow: 0 1px 6px #20212447;
 }
