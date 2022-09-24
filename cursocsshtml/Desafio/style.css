@@ -1,0 +1,15 @@
+.container{
+    position:absolute;
+    border-style:dashed;
+    border-color:black ;
+    background-color: gray;
+    height: 50vh;
+    width: 50vw;
+    margin: 25%;
+}
+.container-item{
+    position: relative;
+    border:black;
+    background-color: red;
+    width: 10%;
+}

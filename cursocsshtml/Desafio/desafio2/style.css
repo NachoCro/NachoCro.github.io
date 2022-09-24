@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 500px 500px;
+    background-color: rgb(17, 51, 1);
+}
+.contenedor__padre {
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background-color: mediumspringgreen;
+}
+.hijo {
+    background-color: forestgreen;
+    width: 50px;
+    height: 50px;
+    grid-row: end;
+    grid-column: end;
+}

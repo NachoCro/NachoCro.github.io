@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: violet;
+    font-family: serif;
+    font-size: 10px;
+}
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav li{
+    display: inline-block;
+}
+.nav a{
+    color: white;
+    background-color: aquamarine;
+    padding:5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nav .Blog{
+    background-color: red;
+}
