@@ -14,7 +14,7 @@ html{
 }
 .navbar{
     position: fixed;
-    font-family: 'Oswald', sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     display: grid;
     width: 100%;
     padding: 30px;
@@ -127,4 +127,21 @@ html{
 .main-information__a:hover{
     margin-top: 22px;
     box-shadow: none;
+}
+.main-service{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-service > h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    margin-top: 50px;
+
+}
+.main-service__services{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
 }
