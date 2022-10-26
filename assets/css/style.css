@@ -1,19 +1,20 @@
 
 body{
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
 }
 
 .background{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/205913.jpg");
+    background-color: rosybrown;
+    /* background-image: url("../img/205913.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .topbar{
+    align-self: flex-start;
     display: grid;
     width: 100%;
     grid-template-columns: 50% 50%;
@@ -58,3 +59,13 @@ ul, ol{
     display: block;
 }
 
+.bottombar{
+    background-color: #242323;
+    color: #9696aa;
+    width: 100%;
+    align-self: flex-end;
+}
+.bottombar a{
+    text-decoration: none;
+    color: #9696aa;
+}
