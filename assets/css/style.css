@@ -1,8 +1,8 @@
 
 body{
-    display: flex;
-    flex-direction: row;
-    min-height: 100vh;
+    display: grid;
+    min-height: 97vh;
+    grid-template-rows: auto auto;
 }
 
 .background{
@@ -45,7 +45,7 @@ ul, ol{
 }
 
 .nav li ul{
-    display:none;
+    display: none;
     position: absolute;
     min-width: 100px;
 }
